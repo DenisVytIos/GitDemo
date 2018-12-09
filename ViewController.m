@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+- (IBAction)tap:(id)sender;
 
 @end
 
@@ -26,4 +27,7 @@
 }
 
 
+- (IBAction)tap:(id)sender {
+    NSLog(@"tap");
+}
 @end
